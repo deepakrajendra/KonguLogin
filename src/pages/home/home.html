@@ -1,14 +1,31 @@
+
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-navbar color="primary" hideBackButton text-center>
+    
+    <ion-title>Login</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="backgrnd" center text-center>
+<!-- 
+  <form  (ngSubmit)="open()" class="login-form">
+
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text"  ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <div padding>-->
+    <h1>Log in to Kongu Travels </h1>
+    <div class="login">
+<button ion-button color="primary" full (click)="open()" >Login</button>
+</div>
+  <!--</div>
+  
+</form>-->
+
 </ion-content>
